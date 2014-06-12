@@ -10,12 +10,12 @@
     background: url("../img/#{$file}") no-repeat scroll $left $top transparent;
 }
 
-@mixin clear(){
+@mixin clear() {
     overflow: hidden;
     width: 100%;
 }
 
-@mixin inblock(){
+@mixin inblock() {
     display: inline-block;
     vertical-align: top;
     *display: inline;
