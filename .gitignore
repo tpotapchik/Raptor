@@ -1,3 +1,5 @@
 .idea/
 *.iml
+*.jar
 .DS_Store
+.gitignore
