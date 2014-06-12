@@ -1,0 +1,23 @@
+@mixin transition($name, $time: 0.4s, $effect: ease-out, $delay: 0s) {
+    -webkit-transition: $name $time $effect $delay;
+    -moz-transition: $name $time $effect $delay;
+    -o-transition: $name $time $effect $delay;
+    -ms-transition: $name $time $effect $delay;
+    transition: $name $time $effect $delay;
+}
+
+@mixin bg($left: 0, $top: 0, $file: "sprite.png") {
+    background: url("../img/#{$file}") no-repeat scroll $left $top transparent;
+}
+
+@mixin clear(){
+    overflow: hidden;
+    width: 100%;
+}
+
+@mixin inblock(){
+    display: inline-block;
+    vertical-align: top;
+    *display: inline;
+    *zoom: 1;
+}
